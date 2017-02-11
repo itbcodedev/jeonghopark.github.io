@@ -38,17 +38,26 @@
 html,
 body {
   overflow-x: hidden;
+  font-size: 90%;
 }
 
 html {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: Helvetica, serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-size: 150%;
+  font-weight: 200;
   color: #313131;
   letter-spacing: -.025rem;
+}
+
+
+strong {
+    font-size: 90%;
+    font-weight: 100;
+    color: #313131;
 }
 
 
@@ -73,16 +82,16 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .container {
-  max-width: 28rem;
+  max-width: 54em;
 }
-@media (min-width: 38em) {
+@media (min-width: 48em) {
   .container {
-    max-width: 32rem;
+    max-width: 42rem;
   }
 }
-@media (min-width: 56em) {
+@media (min-width: 67em) {
   .container {
-    max-width: 38rem;
+    max-width: 54rem;
   }
 }
 
