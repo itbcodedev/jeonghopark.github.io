@@ -5,7 +5,7 @@
 permalink:           pretty
 # relative_permalinks: true
 
-gems:
+plugins:
   - jekyll-paginate
 
 
